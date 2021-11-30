@@ -1,0 +1,83 @@
+body{
+	background-color: green;
+}
+body, h1, a, ul,h3, h2{
+	margin: 0;
+	padding: 0;
+}
+
+#header{
+	background-color: lightgreen;
+}
+
+#header h1{
+	color: #fff;
+	font-family: sans-serif;
+	padding: 10px 0;
+}
+
+#header h1 span{
+	color: limegreen;
+	font-family: courier;
+}
+.container{
+	width: 70%;
+	margin: 0px auto;
+}
+
+#navbar{
+	background-color: limegreen;
+}
+#navbar ul li{
+	display: inline;
+	list-style-type: none;
+}
+#navbar ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 10px;
+	display: inline-block;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 10px;
+}
+#navbar ul li:first-child a {
+	padding-left: 0px;
+}
+
+#navbar a:hover{
+	color: #f8f8f8;
+	background-color: green;
+	padding: 10px;
+}
+
+.text{
+	background-color: #fdfdfd;
+	color: #555;
+	font-family: sans-serif;
+}
+
+#footer{
+	color: #fff;
+	background-color: limegreen;
+	text-align: center;
+	font-family: sans-serif;
+	margin-top: 100px;
+	padding: 10px 0;
+}
+
+
+#logo{
+	color: #fff;
+	background-image: url(../img/logo.jpg);
+	background-position: left bottom;
+	text-align: center;
+	font-size: 30px;
+	min-height: 150px;
+	padding-top: 30px;
+	font-family: sans-serif;
+}
+#logo h3{
+  font-family: sans-serif;
+  padding: 10px;
+}
